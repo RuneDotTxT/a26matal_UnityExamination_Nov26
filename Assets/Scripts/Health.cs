@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 // This component can be used together with the UnityEventOnTrigger-component to make a character in your game have health
@@ -111,7 +112,7 @@ public class Health : MonoBehaviour
         if (currentHealth <= minHealth)
         {
             OnDie?.Invoke();
-            //Add animation-trigger here
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
