@@ -3625,7 +3625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5090204954033699336, guid: 0774525a0053cbb41bffed36fa9f7f86, type: 3}
       propertyPath: onComparedAndTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: CreditScene
+      value: Main Menu
       objectReference: {fileID: 0}
     - target: {fileID: 5090204954033699336, guid: 0774525a0053cbb41bffed36fa9f7f86, type: 3}
       propertyPath: onComparedAndTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
